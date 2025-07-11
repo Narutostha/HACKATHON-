@@ -1,0 +1,1 @@
+export { MediaCenterPage } from './MediaCenterPage';
