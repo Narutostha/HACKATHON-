@@ -18,7 +18,7 @@ export const LoginPage = (): JSX.Element => {
   // Static credentials for demo
   const staticCredentials = [
     { email: 'admin@rta.gov', password: 'admin123', role: 'Administrator' },
-    { email: 'user@rta.gov', password: 'user123', role: 'User' },
+    { email: 'user@rta.gov', password: 'user123 ', role: 'User' },
     { email: 'driver@rta.gov', password: 'driver123', role: 'Driver' },
     { email: 'support@rta.gov', password: 'support123', role: 'Support' }
   ];

@@ -292,7 +292,7 @@ export const LiveTrackingPage = (): JSX.Element => {
   const getPhysicalLocation = (vehicle: any) => {
     // Map GPS coordinates to actual physical locations in Kathmandu
     const locationMappings = [
-      { lat: 27.6960, lng: 85.2410, location: "Near Kalanki Chowk, Ring Road" },
+      { lat: 27.6960, lng: 85.2410, location: "Baneshwor" },
       { lat: 27.6965, lng: 85.2600, location: "Kalimati Vegetable Market Area" },
       { lat: 27.6920, lng: 85.2800, location: "Tripureshwor, Bagmati Bridge" },
       { lat: 27.6930, lng: 85.2990, location: "Maitighar Mandala Junction" },

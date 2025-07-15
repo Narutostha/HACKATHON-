@@ -12,6 +12,7 @@ import { ServicesPage } from './pages/ServicesPage';
 import { ContactPage } from './pages/ContactPage';
 import { LoginPage } from './pages/auth/Login';
 import { RegisterPage } from './pages/auth/Register';
+import { ClaimMyBusPage } from './pages/ClaimMybus/claimmybus';
 
 export const App = (): JSX.Element => {
   return (
@@ -38,6 +39,7 @@ export const App = (): JSX.Element => {
         <Route path="/public-transport" element={<LiveTrackingPage />} />
         <Route path="/business-services" element={<ServicesPage />} />
         <Route path="/accessibility" element={<SOSAlertPage />} />
+        <Route path="/claim-my-bus" element={<ClaimMyBusPage/>} />
         
         {/* Utility Routes */}
         <Route path="/terms" element={<TermsPage />} />

@@ -34,6 +34,7 @@ export const HomePage = (): JSX.Element => {
   const downloadApp = () => {
     alert('🚀 App Download Links:\n\n📱 Android: Play Store\n🍎 iOS: App Store\n📲 APK: Direct Download\n\nFeatures:\n✅ Real-time tracking\n✅ Digital payments\n✅ Route planning\n✅ Emergency SOS');
   };
+  
   const services = [
     {
       id: 'live-tracking',
@@ -44,9 +45,17 @@ export const HomePage = (): JSX.Element => {
       color: 'bg-blue-500'
     },
     {
+      id: 'claim-my-bus',
+      title: 'Claim MY Bus',
+      description: 'Reserve and claim your preferred bus for specific routes',
+      icon: '✋',
+      path: '/claim-my-bus',
+      color: 'bg-teal-500'
+    },
+    {
       id: 'payment',
       title: 'Payment',
-      description: 'Pay fares using eSewa, Khalti, and other digital wallets',
+      description: 'Pay fares using NYXIS and Load with eSewa, Khalti, and other digital wallets',
       icon: '💳',
       path: '/payment',
       color: 'bg-green-500'
@@ -90,7 +99,8 @@ export const HomePage = (): JSX.Element => {
       icon: '🚨',
       path: '/sos-alert',
       color: 'bg-red-600'
-    }
+    },
+    
   ];
 
   return (
@@ -288,7 +298,7 @@ export const HomePage = (): JSX.Element => {
                 </div>
                 <h3 className="text-xl font-bold mb-3">Digital Payments</h3>
                 <p className="text-gray-600">
-                  Pay seamlessly with eSewa, Khalti, IME Pay, and other digital wallets
+                  Pay seamlessly with NYXIS & Load With eSewa, Khalti, IME Pay, and other digital wallets
                 </p>
               </div>
               <div className="text-center">
